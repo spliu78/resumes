@@ -1,79 +1,123 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Resumes : My resumes">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>Resumes</title>
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/spliu78/resumes">View on GitHub</a>
-
-          <h1 id="project_title">Resumes</h1>
-          <h2 id="project_tagline">My resumes</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/spliu78/resumes/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/spliu78/resumes/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Resumes maintained by <a href="https://github.com/spliu78">spliu78</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
+	<head>
+		<meta charset='UTF-8' />
+		<meta name="keywords" content="前端 简历 求职" />
+		<meta name="description" content="刘世鹏的个人简历，热爱前端，热爱设计。" />
+		<title>Resume</title>
+		<link rel="stylesheet" href="css/body.css" />
+		<link rel="stylesheet" href="css/dialog.css" />
+		<script type="text/javascript" src="js/jquery-2.0.3.js"></script>
+		<script type="text/javascript" src="js/EventUtil.js"></script>
+	</head>
+	<body>
+		<div id="loading">
+			<h1 class="loading1">(⊙ω⊙)正在努力加载内容...</h1>
+			<h1 class="loading2">等下鼠标滚轮滚起来~(｡･o･)ﾉﾞ</h1>
+			<div id="loading3">
+				<div class="dot1"></div>
+				<div class="dot2"></div>
+				<div class="dot3"></div>
+			</div>
+			<div id="load-btn" class="load-btn">点我开始</div>
+		</div>
+		<div id="my_dialog1" class="dialog-cover" data-role="dialog" data-dismiss="#my_dialog1">
+			<div class="dialog show" data-role="dialog-contain">
+				<header>快快联系我~</header>
+				<hr />
+				<div>
+					<p>邮箱：spliu787273@gmail.com</p>
+					<p>电话：188-4266-0372</p>
+				</div>
+				<hr />
+				<div>
+					<p>如果你觉得这个小网页有什么值得改进的地方，</p>
+					<p>或者有什么不足指出，</p>
+					<p>欢迎指出~</p>
+				</div>
+			</div>
+		</div>
+		<div class="copyright"><span>©2014 刘世鹏</span></div>
+		<div id="area1" >
+			<div id="area1_1" ></div>
+			<div id="area1_2" ></div>
+			<p class="tips">偷偷告诉你，<br/>用鼠标滚轮上下滑动试试~</p>
+			<div id="area1_3">
+				<p><strong>Hello,</strong>很高兴见到你 : )</p>
+				<p>我叫刘世鹏，现就读于大连理工大学</p>
+				<!-- <p>爱好旅行，动漫和创造</p> -->
+				<p>一个普通的程序猿，也是一个普通的胖纸 XD</p>
+				<img class="img" src="img/myface1.png" />
+				<!-- <p>虽然有时候会很懒，不过勤奋起来可是一级棒~</p> -->
+			</div>
+		</div>
+		<div id="area2">
+			<div id="area2_1">
+				<p>来一段简单的自我介绍吧~</p>
+				<p>喜欢听歌，大爱Eason~</p>
+				<p>喜欢旅游，去过北京天津大连青岛上海江浙广州福州北海贵阳...</p>
+				<p>还喜欢二次元，还有...德玛西亚！(*ﾉωﾉ)</p>
+				<p>热爱前端技术~</p>
+				<p>前端就是我的舞台，让我飞得更高~</p>		
+				<p title="古语有云，懒是人类进步的阶梯！我会为了懒而奋不顾身，化繁为简！ XD">虽然平时有点小懒，但钻研起来一级棒！(｡･｀ω´･｡)</p>
+			</div>
+			<div id="area2_2">
+				<!-- left定位与right定位实现效果 -->
+				<div id="album1" class="smallalbum" ><img src="img/photograph/ry.jpg" alt="软件学院" title="这是我上学的地方，是不是拍得很小清新呢？"/></div>
+				<div id="album2" class="smallalbum" ><img src="img/photograph/yh.JPG" alt="樱花园" title="赏樱花~赏樱花~"/></div>
+				<div id="album3" class="bigalbum" ><img src="img/photograph/hp.JPG" alt="园林博览会" title="青岛园林博览会一景~"/></div>
+				<div id="album4" class="smallalbum" ><img src="img/photograph/gg.JPG" alt="小雏菊" title="这个也很小清新的说~"/></div>
+				<div id="album5" class="smallalbum" ><img src="img/photograph/bcd.JPG" alt="大连棒棰岛" title="棒棰岛有蓝蓝的天蓝蓝的水~"/></div>
+				<div id="album6" class="bigalbum" ><img src="img/photograph/bys.JPG" alt="梧州白云山" title="这是我家的日出哟，嗯？那个背影我偏不告诉你是谁~"/></div>
+				<!-- 这里没有用到map，带来的后果是就算没点到圆圈也会有hover效果，这样不太好 -->
+			</div>
+			<!-- <div id="area2_3">
+				<img src="img/nice2cu.jpg" alt="欢迎~" title="嗯哼？" />
+			</div> -->
+		</div>
+		<div id="area3">
+			<div id="area3_1"></div>
+			<div id="area3_2"></div>
+			<div id="area3_3"></div>
+			<div id="area3_4"></div>
+			<div id="area3_5"></div>
+			<div id="area3_6">
+			<!-- 利用bottom提高50%，top降低50%实现两行效果 -->
+			<div id="area3_6_1" class="round_1">
+				<div>
+					<p>偷偷告诉你...我有一个小小的烦恼...就是...</p>
+					<p>暑期快要到了我要找实习找工作了肿么办！ ∑( °△°|||)</p>
+					<p>所以！不知道有哪位师父可以收了劣徒_(:з」∠)_</p>		
+					<p>虽然经验不多，但是一直在努力做得更好~</p>
+				</div>
+			</div>
+			<div id="area3_6_2" class="round_2">
+				<div>
+					<p>可以提供端茶倒水捡肥皂一条龙服务！</p>
+					<p>如果你觉得我不错，</p>
+					<p><span class="link" data-target="#my_dialog1" data-role="btn">这里</span>有我的联系方式哟~</p>
+					<p>请务必跟我联系！</p>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div id="area4">
+			<div id="area4_1">
+				<h1 id="area4_2">The End</h1>
+				<p>策&nbsp;划&nbsp;人 —— 鹏鹏&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				<p>射&nbsp;鸡&nbsp;狮 —— 鹏鹏&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				<p>程&nbsp;序&nbsp;猿 —— 鹏鹏&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				<p>校&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对 —— 鹏鹏&nbsp;&nbsp;&nbsp;&nbsp;</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;特别鸣谢 —— 看到最后的你</p>
+				<p class="end1">感谢驻足</p>
+				<p class="end2">此处应该有掌声  ; )</p>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/dislog.js"></script>
+		<script type="text/javascript" src="js/area1.js"></script>
+		<script type="text/javascript" src="js/area2.js"></script>
+		<script type="text/javascript" src="js/area3.js"></script>
+		<script type="text/javascript" src="js/area4.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+	</body>
 </html>
